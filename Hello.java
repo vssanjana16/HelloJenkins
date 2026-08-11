@@ -1,5 +1,5 @@
 public class Hello{
     public static void main(String  args[]){
-        System.out.println("Continuous Integration Successful");
+        System.out.println("Continuous Integration Successful")
     }
 }
