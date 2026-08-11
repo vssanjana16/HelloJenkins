@@ -4,14 +4,14 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
-                dir('src') {
+                 {
                     bat 'javac Hello.java'
                 }
             }
         }
 stage('Run') {
     steps {
-        dir('src') {
+         {
             bat 'java Hello'
         }
     }
